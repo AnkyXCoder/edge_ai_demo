@@ -9,24 +9,26 @@ An example firmware for the Nordic Semiconductor nRF52840 DK showing how to use 
 | Note: Currently supported NCS version is 1.9.1
 1. Clone this repository:
 
-    ```
-    $ git clone https://github.com/edgeimpulse/example-dataforwarder-zephyr
+    ```bash
+    git clone git@github.com:AnkyXCoder/edge_ai_demo.git
     ```
 
 1. Build and flash this application:
 
-    ```
-    $ cd example-dataforwarder-zephyr
-    $ west build -b nrf52840dk_nrf52840
-    $ west flash
+    ```bash
+    cd data_forwarder
+    west build -p -b nrf52840dk/nrf52840
+    west flash
+    # or
+    west flash -r jlink
     ```
 
 1. Run the data forwarder (use `--clean` to set a new project):
 
-    ```
-    $ edge-impulse-data-forwarder
+    ```bash
+    edge-impulse-data-forwarder
     ```
 
 1. Your device is now connected in Edge Impulse, and you can sample data!
 
-    ![Data collected](img/forwarder01.png)
+1. 
