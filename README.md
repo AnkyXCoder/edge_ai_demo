@@ -1,1 +1,1 @@
-# edge_ai_motion_data_forwarder
+# edge_ai
