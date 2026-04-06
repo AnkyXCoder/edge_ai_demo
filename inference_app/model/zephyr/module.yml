@@ -1,0 +1,5 @@
+name: Motion_Classification_-_Continuo v162
+build:
+  cmake: .
+  depends:
+    - edge-impulse-sdk-zephyr
